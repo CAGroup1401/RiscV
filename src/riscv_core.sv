@@ -30,7 +30,7 @@ module riscv_core(
         if(inst[14:12]==3'h0 and inst[31:25]==3'h0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1;
-            regfile regFile(
+            regfile regFile1(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -50,7 +50,7 @@ module riscv_core(
     if(inst[14:12]==3'h0 and inst[31:25]==32 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1;
-            regfile regFile(
+            regfile regFile2(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -70,7 +70,7 @@ module riscv_core(
             if(inst[14:12]==1 and inst[31:25]==3'h0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1;
-            regfile regFile(
+            regfile regFile3(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -90,7 +90,7 @@ module riscv_core(
         if(inst[14:12]==2 and inst[31:25]==3'h0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1;
-            regfile regFile(
+            regfile regFile4(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -114,7 +114,7 @@ module riscv_core(
          if(inst[14:12]==3 and inst[31:25]==3'h0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1;
-            regfile regFile(
+            regfile regFile5(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -141,7 +141,7 @@ module riscv_core(
           if(inst[14:12]==4 and inst[31:25]==3'h0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1=1'b0;
-            regfile regFile(
+            regfile regFile6(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -162,7 +162,7 @@ module riscv_core(
        if(inst[14:12]==5 and inst[31:25]==3'h0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1=1'b0;
-            regfile regFile(
+            regfile regFile7(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -183,7 +183,7 @@ module riscv_core(
           if(inst[14:12]==5 and inst[31:25]==32 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1=1'b0;
-            regfile regFile(
+            regfile regFile8(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -204,7 +204,7 @@ module riscv_core(
           if(inst[14:12]==6 and inst[31:25]==0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1=1'b0;
-            regfile regFile(
+            regfile regFile9(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -225,7 +225,7 @@ module riscv_core(
         if(inst[14:12]==7 and inst[31:25]==0 )begin
             wire [4:0] data1,data2,data_rd;
             wire halted1=1'b0;
-            regfile regFile(
+            regfile regFile10(
               .rs1_data(data1),
               .rs2_data(data2),
               .rs1_num(inst[19:15]),
@@ -250,7 +250,7 @@ module riscv_core(
              if(inst[14:12]==1'b0 )begin
             wire [4:0] data1,data_rd;
             wire halted1=1'b0;
-            regfile regFile(
+            regfile regFile11(
               .rs1_data(data1),
               .rs2_data(),
               .rs1_num(inst[19:15]),
