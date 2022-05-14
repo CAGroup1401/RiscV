@@ -20,4 +20,9 @@ module riscv_core(
     input          clk;
     input          rst_b;
 
+
+
+    //R instructions:
+    
+
 endmodule
