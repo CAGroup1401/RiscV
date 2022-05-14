@@ -1,0 +1,89 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ubuntu/term4/meemari/RiscV'
+riscv64-linux-gnu-as -march=rv32i test/i-type/slli.s -o test/i-type/slli.elf
+dd skip=52 bs=1 if=test/i-type/slli.elf of=test/i-type/slli.bin count=$(expr $(stat --printf="%s" test/i-type/slli.elf) - 444)
+xxd -p -c1 test/i-type/slli.bin test/i-type/slli.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/xori.s -o test/i-type/xori.elf
+dd skip=52 bs=1 if=test/i-type/xori.elf of=test/i-type/xori.bin count=$(expr $(stat --printf="%s" test/i-type/xori.elf) - 444)
+xxd -p -c1 test/i-type/xori.bin test/i-type/xori.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/sltiu.s -o test/i-type/sltiu.elf
+dd skip=52 bs=1 if=test/i-type/sltiu.elf of=test/i-type/sltiu.bin count=$(expr $(stat --printf="%s" test/i-type/sltiu.elf) - 444)
+xxd -p -c1 test/i-type/sltiu.bin test/i-type/sltiu.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/ecall.s -o test/i-type/ecall.elf
+dd skip=52 bs=1 if=test/i-type/ecall.elf of=test/i-type/ecall.bin count=$(expr $(stat --printf="%s" test/i-type/ecall.elf) - 444)
+xxd -p -c1 test/i-type/ecall.bin test/i-type/ecall.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/andi.s -o test/i-type/andi.elf
+dd skip=52 bs=1 if=test/i-type/andi.elf of=test/i-type/andi.bin count=$(expr $(stat --printf="%s" test/i-type/andi.elf) - 444)
+xxd -p -c1 test/i-type/andi.bin test/i-type/andi.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/addi.s -o test/i-type/addi.elf
+dd skip=52 bs=1 if=test/i-type/addi.elf of=test/i-type/addi.bin count=$(expr $(stat --printf="%s" test/i-type/addi.elf) - 444)
+xxd -p -c1 test/i-type/addi.bin test/i-type/addi.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/srli.s -o test/i-type/srli.elf
+dd skip=52 bs=1 if=test/i-type/srli.elf of=test/i-type/srli.bin count=$(expr $(stat --printf="%s" test/i-type/srli.elf) - 444)
+xxd -p -c1 test/i-type/srli.bin test/i-type/srli.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/slti.s -o test/i-type/slti.elf
+dd skip=52 bs=1 if=test/i-type/slti.elf of=test/i-type/slti.bin count=$(expr $(stat --printf="%s" test/i-type/slti.elf) - 444)
+xxd -p -c1 test/i-type/slti.bin test/i-type/slti.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/ori.s -o test/i-type/ori.elf
+dd skip=52 bs=1 if=test/i-type/ori.elf of=test/i-type/ori.bin count=$(expr $(stat --printf="%s" test/i-type/ori.elf) - 444)
+xxd -p -c1 test/i-type/ori.bin test/i-type/ori.mem
+riscv64-linux-gnu-as -march=rv32i test/i-type/srai.s -o test/i-type/srai.elf
+dd skip=52 bs=1 if=test/i-type/srai.elf of=test/i-type/srai.bin count=$(expr $(stat --printf="%s" test/i-type/srai.elf) - 444)
+xxd -p -c1 test/i-type/srai.bin test/i-type/srai.mem
+riscv64-linux-gnu-as -march=rv32i test/b-type/beq.s -o test/b-type/beq.elf
+dd skip=52 bs=1 if=test/b-type/beq.elf of=test/b-type/beq.bin count=$(expr $(stat --printf="%s" test/b-type/beq.elf) - 444)
+xxd -p -c1 test/b-type/beq.bin test/b-type/beq.mem
+riscv64-linux-gnu-as -march=rv32i test/b-type/blt.s -o test/b-type/blt.elf
+dd skip=52 bs=1 if=test/b-type/blt.elf of=test/b-type/blt.bin count=$(expr $(stat --printf="%s" test/b-type/blt.elf) - 444)
+xxd -p -c1 test/b-type/blt.bin test/b-type/blt.mem
+riscv64-linux-gnu-as -march=rv32i test/b-type/bgeu.s -o test/b-type/bgeu.elf
+dd skip=52 bs=1 if=test/b-type/bgeu.elf of=test/b-type/bgeu.bin count=$(expr $(stat --printf="%s" test/b-type/bgeu.elf) - 444)
+xxd -p -c1 test/b-type/bgeu.bin test/b-type/bgeu.mem
+riscv64-linux-gnu-as -march=rv32i test/b-type/bge.s -o test/b-type/bge.elf
+dd skip=52 bs=1 if=test/b-type/bge.elf of=test/b-type/bge.bin count=$(expr $(stat --printf="%s" test/b-type/bge.elf) - 444)
+xxd -p -c1 test/b-type/bge.bin test/b-type/bge.mem
+riscv64-linux-gnu-as -march=rv32i test/b-type/bltu.s -o test/b-type/bltu.elf
+dd skip=52 bs=1 if=test/b-type/bltu.elf of=test/b-type/bltu.bin count=$(expr $(stat --printf="%s" test/b-type/bltu.elf) - 444)
+xxd -p -c1 test/b-type/bltu.bin test/b-type/bltu.mem
+riscv64-linux-gnu-as -march=rv32i test/b-type/bne.s -o test/b-type/bne.elf
+dd skip=52 bs=1 if=test/b-type/bne.elf of=test/b-type/bne.bin count=$(expr $(stat --printf="%s" test/b-type/bne.elf) - 444)
+xxd -p -c1 test/b-type/bne.bin test/b-type/bne.mem
+riscv64-linux-gnu-as -march=rv32i test/memory/lhu.s -o test/memory/lhu.elf
+dd skip=52 bs=1 if=test/memory/lhu.elf of=test/memory/lhu.bin count=$(expr $(stat --printf="%s" test/memory/lhu.elf) - 444)
+xxd -p -c1 test/memory/lhu.bin test/memory/lhu.mem
+riscv64-linux-gnu-as -march=rv32i test/memory/lbu.s -o test/memory/lbu.elf
+dd skip=52 bs=1 if=test/memory/lbu.elf of=test/memory/lbu.bin count=$(expr $(stat --printf="%s" test/memory/lbu.elf) - 444)
+xxd -p -c1 test/memory/lbu.bin test/memory/lbu.mem
+riscv64-linux-gnu-as -march=rv32i test/memory/sw-lw.s -o test/memory/sw-lw.elf
+dd skip=52 bs=1 if=test/memory/sw-lw.elf of=test/memory/sw-lw.bin count=$(expr $(stat --printf="%s" test/memory/sw-lw.elf) - 444)
+xxd -p -c1 test/memory/sw-lw.bin test/memory/sw-lw.mem
+riscv64-linux-gnu-as -march=rv32i test/memory/lh.s -o test/memory/lh.elf
+dd skip=52 bs=1 if=test/memory/lh.elf of=test/memory/lh.bin count=$(expr $(stat --printf="%s" test/memory/lh.elf) - 444)
+xxd -p -c1 test/memory/lh.bin test/memory/lh.mem
+riscv64-linux-gnu-as -march=rv32i test/memory/lb.s -o test/memory/lb.elf
+dd skip=52 bs=1 if=test/memory/lb.elf of=test/memory/lb.bin count=$(expr $(stat --printf="%s" test/memory/lb.elf) - 444)
+xxd -p -c1 test/memory/lb.bin test/memory/lb.mem
+riscv64-linux-gnu-as -march=rv32i test/function/jalr.s -o test/function/jalr.elf
+dd skip=52 bs=1 if=test/function/jalr.elf of=test/function/jalr.bin count=$(expr $(stat --printf="%s" test/function/jalr.elf) - 444)
+xxd -p -c1 test/function/jalr.bin test/function/jalr.mem
+riscv64-linux-gnu-as -march=rv32i test/function/jal.s -o test/function/jal.elf
+dd skip=52 bs=1 if=test/function/jal.elf of=test/function/jal.bin count=$(expr $(stat --printf="%s" test/function/jal.elf) - 444)
+xxd -p -c1 test/function/jal.bin test/function/jal.mem
+riscv64-linux-gnu-as -march=rv32i test/u-type/auipc.s -o test/u-type/auipc.elf
+dd skip=52 bs=1 if=test/u-type/auipc.elf of=test/u-type/auipc.bin count=$(expr $(stat --printf="%s" test/u-type/auipc.elf) - 444)
+xxd -p -c1 test/u-type/auipc.bin test/u-type/auipc.mem
+riscv64-linux-gnu-as -march=rv32i test/u-type/lui.s -o test/u-type/lui.elf
+dd skip=52 bs=1 if=test/u-type/lui.elf of=test/u-type/lui.bin count=$(expr $(stat --printf="%s" test/u-type/lui.elf) - 444)
+xxd -p -c1 test/u-type/lui.bin test/u-type/lui.mem
+riscv64-linux-gnu-as -march=rv32i test/r-type/sll.s -o test/r-type/sll.elf
+dd skip=52 bs=1 if=test/r-type/sll.elf of=test/r-type/sll.bin count=$(expr $(stat --printf="%s" test/r-type/sll.elf) - 444)
+xxd -p -c1 test/r-type/sll.bin test/r-type/sll.mem
+riscv64-linux-gnu-as -march=rv32i test/r-type/add.s -o test/r-type/add.elf
+dd skip=52 bs=1 if=test/r-type/add.elf of=test/r-type/add.bin count=$(expr $(stat --printf="%s" test/r-type/add.elf) - 444)
+xxd -p -c1 test/r-type/add.bin test/r-type/add.mem
+riscv64-linux-gnu-as -march=rv32i test/r-type/sub.s -o test/r-type/sub.elf
+dd skip=52 bs=1 if=test/r-type/sub.elf of=test/r-type/sub.bin count=$(expr $(stat --printf="%s" test/r-type/sub.elf) - 444)
+xxd -p -c1 test/r-type/sub.bin test/r-type/sub.mem
+rm test/b-type/bltu.bin test/u-type/auipc.bin test/i-type/andi.bin test/i-type/xori.bin test/b-type/bgeu.bin test/u-type/lui.bin test/b-type/beq.bin test/i-type/andi.elf test/i-type/srli.elf test/i-type/ori.bin test/u-type/lui.elf test/r-type/add.elf test/memory/lhu.bin test/memory/lb.bin test/function/jal.elf test/i-type/slti.bin test/r-type/add.bin test/memory/lh.elf test/r-type/sll.elf test/i-type/slti.elf test/b-type/beq.elf test/r-type/sub.elf test/i-type/ecall.bin test/i-type/addi.elf test/b-type/bltu.elf test/i-type/xori.elf test/function/jal.bin test/memory/lbu.bin test/memory/lhu.elf test/i-type/slli.bin test/b-type/bge.elf test/b-type/bne.elf test/i-type/sltiu.bin test/r-type/sub.bin test/r-type/sll.bin test/i-type/sltiu.elf test/function/jalr.elf test/i-type/slli.elf test/b-type/blt.bin test/function/jalr.bin test/i-type/ori.elf test/memory/lb.elf test/i-type/ecall.elf test/b-type/bge.bin test/i-type/srli.bin test/b-type/bgeu.elf test/memory/sw-lw.elf test/memory/lbu.elf test/b-type/bne.bin test/i-type/srai.elf test/memory/lh.bin test/memory/sw-lw.bin test/b-type/blt.elf test/u-type/auipc.elf test/i-type/addi.bin test/i-type/srai.bin
+make: Leaving directory '/home/ubuntu/term4/meemari/RiscV'
+ 

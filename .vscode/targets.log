@@ -1,0 +1,637 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sat May 14 19:42:27 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# environment
+PAPERSIZE = letter
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+SNAP_COMMON = /var/snap/code/common
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/ubuntu/term4/meemari/RiscV
+# makefile
+SHELL = /bin/sh
+# environment
+SNAP_DATA = /var/snap/code/96
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+JOURNAL_STREAM = 9:47604
+# makefile (from 'Makefile', line 4)
+g = \e[1;32m
+# makefile (from 'Makefile', line 3)
+n = \e[0m
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'Makefile', line 5)
+r = \e[1;31m
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+SNAP_ARCH = amd64
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+USERNAME = ubuntu
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+_ = /snap/code/96/usr/share/code/code
+# environment
+MANAGERPID = 1935
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/ubuntu
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/96/usr/share/glib-2.0/schemas
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/ubuntu/.local/bin:/home/ubuntu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+SESSION_MANAGER = local/roya-hp:@/tmp/.ICE-unix/2197,unix/roya-hp:/tmp/.ICE-unix/2197
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/ubuntu/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+SNAP = /snap/code/96
+# environment
+SNAP_VERSION = da15b6fd
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+DISABLE_WAYLAND = 1
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = bd6cbf07c39047f3a40dec51b3f14457
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/96/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 431364
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+PWD = /home/ubuntu/term4/meemari/RiscV
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 2108
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/ubuntu
+# makefile (from 'Makefile', line 9)
+MEM = $(ASM:%.s=%.mem)
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = /home/ubuntu/.config/Code/CachedData/da15b6fd3ef856477bf6f4fb29ba1b7af717770d
+# environment
+LOGNAME = ubuntu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# environment
+SNAP_CONTEXT = aBg6b3-rFoPWdZbnWlM3nml7KbVkNyZvakMxYz3We4KxdiPqbpnv
+# automatic
++F = $(notdir $+)
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_USER_COMMON = /home/ubuntu/snap/code/common
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+SNAP_REAL_HOME = /home/ubuntu
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SNAP_USER_DATA = /home/ubuntu/snap/code/96
+# environment
+SHLVL = 0
+# makefile (from 'Makefile', line 8)
+ASM = $(wildcard test/**/*.s)
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-ec320ce4-1cf2-494f-a3b6-dc20f7a9c809.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = ubuntu
+# environment
+SNAP_REVISION = 96
+# environment
+LC_MONETARY = en_US.UTF-8
+# makefile
+.DEFAULT_GOAL := assemble
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-9415da10-1.67.1-main.sock
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# makefile (from 'Makefile', line 1)
+OUTPUT = output
+# default
+MAKEFILES := 
+# environment
+SNAP_COOKIE = aBg6b3-rFoPWdZbnWlM3nml7KbVkNyZvakMxYz3We4KxdiPqbpnv
+# environment
+LC_NUMERIC = en_US.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+SNAP_NAME = code
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SNAP_REEXEC = 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 7)
+TEST_DIRS = $(wildcard test/**/)
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 431414
+# makefile (from 'Makefile', line 23)
+INPUT = test/i-type/addi
+# variable set hash-table stats:
+ 
+# Load=137/1024=13%, Rehash=0, Collisions=22/165=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# test/b-type (device 66306, inode 7083498): 20 files, no impossibilities.
+# . (device 66306, inode 7083320): 11 files, no impossibilities.
+# test/function (device 66306, inode 7083517): 8 files, no impossibilities.
+# test/r-type (device 66306, inode 7083581): 11 files, no impossibilities.
+# test (device 66306, inode 7083497): 8 files, no impossibilities.
+# test/u-type (device 66306, inode 7083591): 8 files, no impossibilities.
+# test/i-type (device 66306, inode 7083524): 32 files, no impossibilities.
+# test/memory (device 66306, inode 7083562): 17 files, no impossibilities.
+# 323src (device 66306, inode 7083488): 6 files, no impossibilities.
+# src (device 66306, inode 7083495): 3 files, no impossibilities.
+
+# 124 files, no impossibilities in 10 directories.
+
+# Implicit Rules
+
+%.elf: %.s
+#  recipe to execute (from 'Makefile', line 13):
+	riscv64-linux-gnu-as -march=rv32i $< -o $@
+
+%.bin: %.elf
+#  recipe to execute (from 'Makefile', line 16):
+	dd skip=52 bs=1 if=$< of=$@ count=$$(expr $$(stat --printf="%s" $<) - 444)
+
+%.mem: %.bin
+#  recipe to execute (from 'Makefile', line 19):
+	xxd -p -c1 $< $@
+
+# 3 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+test/b-type/bgeu.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/memory/lbu.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+323src/memory.sv:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/b-type/bge.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/srai.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean-mem:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 59):
+	rm -rf $(MEM)
+
+# Not a target:
+test/b-type/blt.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+test/u-type/auipc.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+.PHONY: clean clean-mem
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+assemble: test/i-type/slli.mem test/i-type/xori.mem test/i-type/sltiu.mem test/i-type/ecall.mem test/i-type/andi.mem test/i-type/addi.mem test/i-type/srli.mem test/i-type/slti.mem test/i-type/ori.mem test/i-type/srai.mem test/b-type/beq.mem test/b-type/blt.mem test/b-type/bgeu.mem test/b-type/bge.mem test/b-type/bltu.mem test/b-type/bne.mem test/memory/lhu.mem test/memory/lbu.mem test/memory/sw-lw.mem test/memory/lh.mem test/memory/lb.mem test/function/jalr.mem test/function/jal.mem test/u-type/auipc.mem test/u-type/lui.mem test/r-type/sll.mem test/r-type/add.mem test/r-type/sub.mem
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+323src/regfile.sv:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+323src/riscv_machine.sv:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-14 16:59:59.791123
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+test/i-type/andi.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/srli.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/u-type/lui.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/r-type/add.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/function/jal.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/memory/lh.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+compile: obj_dir/Vriscv_machine
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+323src/sim_main.cpp:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/r-type/sll.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/slti.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+sim: compile assemble
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 35):
+	cp ${INPUT}.mem output/instructions.mem
+	./obj_dir/Vriscv_machine
+
+# Not a target:
+test/r-type/sub.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/b-type/beq.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 56):
+	rm -rf obj_dir
+
+# Not a target:
+test/i-type/addi.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/b-type/bltu.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/xori.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+verify: sim
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 39):
+	diff -u ${INPUT}.reg output/regdump.reg 1>&2
+
+obj_dir/Vriscv_machine: src/riscv_core.sv 323src/riscv_machine.sv 323src/regfile.sv 323src/memory.sv 323src/sim_main.cpp
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 26):
+	docker run -ti -v ${PWD}:/work												\
+			verilator/verilator:latest --exe --build --cc --top riscv_machine	\
+					-Wno-BLKLOOPINIT											\
+					`find src 323src -iname '*.v' -o -iname '*.sv'`				\
+					323src/sim_main.cpp
+
+# Not a target:
+test/memory/sw-lw.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/memory/lhu.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+src/riscv_core.sv:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+verify-all: compile assemble
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 42):
+	@fail=0;																				\
+	for test in `find test -iname '*.mem'`; do												\
+		if ! make verify INPUT=$${test%".mem"}; then fail=$$(expr $$fail + 1); fi;			\
+	done; 																					\
+	if [ $$fail -ne 0 ]; then 																\
+		echo "$r$$fail test failed from $$(find test -iname '*.mem' | wc -l) tests :($n"; 	\
+	else 																					\
+		echo "$gAll tests passed! ($$(find test -iname '*.mem' | wc -l) tests)$n";			\
+	fi
+
+# Not a target:
+test/b-type/bne.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/sltiu.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/function/jalr.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/slli.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+ 
+
+# Not a target:
+test/i-type/ori.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/memory/lb.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+test/i-type/ecall.mem:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=46/1024=4%, Rehash=0, Collisions=4/100=4%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 163 / storage = 1756 B / avg = 10 B
+# current buf: size = 8162 B / used = 1756 B / count = 163 / avg = 10 B
+
+# strcache performance: lookups = 209 / hit rate = 22%
+# hash-table stats:
+# Load=163/8192=2%, Rehash=0, Collisions=18/209=9%
+# Finished Make data base on Sat May 14 19:42:27 2022
+
+ 
